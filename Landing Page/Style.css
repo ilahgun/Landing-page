@@ -1,0 +1,193 @@
+/* style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+    background-image: url(img/background.png);
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: -10px;
+}
+
+.header {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin-top: -40px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:  #333333;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: fixed;
+    width: 1000px;
+}
+
+.header li {
+    float: left;
+    margin-top: 25px;
+}
+
+.header li input {
+    margin-top: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px;
+}
+
+.header a:hover {
+    background-color: slategrey;
+    color: white;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    margin-bottom: -25px;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.hero {
+    height: 450px;
+    background-image: url(img/gambar\ 1.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid slategrey;
+    border-bottom: 5px solid slategrey;
+}
+
+.hero h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+}
+
+.hero .bawah {
+    margin-left: 500px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.hero .dalamhero {
+    height: 130px;
+    background-color: #333333;
+    background-size: cover;
+    margin-top: 93px;
+}
+
+.dalamhero ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.dalamhero li {
+    float: left;
+    margin-top: 30px;
+}
+
+.dalamhero a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dalamhero .k {
+    margin-left: 40px;
+    background-color: slategrey;
+    padding: 20px;
+}
+
+.dalamhero .t {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: slategrey;
+}
+
+.dalamhero .i {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: slategrey;
+}
+
+.main img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.contenkiri {
+    width: 500px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.contenkanan {
+    width: 500px;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
+
+.main h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.footer {
+    background-color: #333333;
+    padding: 3px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
